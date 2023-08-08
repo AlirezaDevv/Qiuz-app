@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+  background-image: linear-gradient(
+    to left,
+    rgb(103, 6, 77),
+    rgb(16, 103, 103)
+  );
+}
+
+.app {
+  width: 600px;
+}
+
+.correct {
+  background: #9aeabc;
+}
+
+.incorrect {
+  background: #ff9393;
+}
+
+.btn:hover:not([disabled]){
+
+color: azure;
+background-color: rgb(3, 17, 10);
+
+}
